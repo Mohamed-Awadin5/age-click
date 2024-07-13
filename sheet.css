@@ -1,0 +1,47 @@
+body{
+    background-color: #808080 ;
+    font-family: sans-serif;
+}
+#container{
+    background-color: #eee;
+    text-align: center;
+    width: 30%;
+    padding: 40px 20px 40px 20px;
+    margin-top: 4%;
+}
+#container #inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+#container #inputs input {
+    margin: 10px;
+    border: black 2px solid;
+    width: 220px;
+    height: 40px;
+}
+#container #inputs button{
+    width: 100px ; 
+    height: 40px;
+    padding: 5px;
+    margin: 5px;
+}
+h2 {
+    padding: 10px;
+}
+h2 span {
+    color: red;
+}
+@media (max-width: 576px){
+    #container{
+        width: 80%; height: 420px;
+        padding: 30px 20px 10px 20px;
+        margin-top: 25%;
+    }
+    h2 {
+        padding:5px;
+    }
+}
